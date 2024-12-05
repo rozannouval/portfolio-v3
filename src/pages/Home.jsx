@@ -43,7 +43,7 @@ function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               {/* Introduction Button */}
-              <button className="bg-gradient-to-r from-orange-500 to-rose-500 text-white px-10 pt-[1.125rem] pb-3 rounded-full hover:shadow-lg hover:shadow-orange-500/30 transition-all text-xl font-semibold flex gap-2">
+              <button className="bg-gradient-to-r from-orange-500 to-rose-500 text-white px-10 pt-[1.125rem] pb-3 rounded-full hover:shadow-lg hover:shadow-orange-500/30 transition-all text-xl font-semibold flex justify-center gap-2">
                 <FaUserTie className="text-2xl" />
                 Introduction
               </button>
@@ -53,7 +53,7 @@ function Home() {
                 href="https://drive.google.com/file/d/1LIBLca4PZdd5xRiH8Eaz23OksXNbh_bq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-orange-500 text-orange-500 px-10 pt-4 pb-3 rounded-full hover:bg-white hover:text-orange-600 transition-all text-xl duration-300 font-semibold flex gap-2"
+                className="border-2 border-orange-500 text-orange-500 px-10 pt-4 pb-3 rounded-full hover:bg-white hover:text-orange-600 transition-all text-xl duration-300 font-semibold flex justify-center gap-2"
               >
                 <FaFileDownload className="text-2xl" />
                 Download CV
