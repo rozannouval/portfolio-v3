@@ -100,7 +100,7 @@ function Home() {
               <div className="absolute -z-10 -inset-1 bg-gradient-to-r from-orange-600 to-rose-600 blur rounded-full opacity-60 transition duration-1000 group-hover:duration-200"></div>
 
               <img
-                src="/rozan1.png"
+                src="/rozan1.jpg"
                 alt="Rozan Nouval"
                 className="w-80 md:w-[450px] rounded-full border-[12px] border-white shadow-2xl group-hover:scale-105 transition-all duration-500 ease-out"
               />
